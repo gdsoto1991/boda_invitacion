@@ -89,3 +89,10 @@ nav > div {
 input::placeholder {
 	font-size: 14px;
 }
+
+@media screen and (max-width: 768px) {
+    #myVideo {
+        max-width: none;
+		height: 150vh; 
+    }
+}

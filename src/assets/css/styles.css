@@ -283,8 +283,8 @@
 }
 @media (max-width: 480px) {
 	.grid2 {
-		grid-template-columns: repeat(1, 300px);
-		grid-auto-rows: 330px;
+		grid-template-columns: repeat(1, 250px);
+		grid-auto-rows: 280px;
 	}
 	.card3-box {
 		padding: 0.2rem;
@@ -395,8 +395,8 @@
 }
 @media (max-width: 480px) {
 	.grid {
-		grid-template-columns: repeat(1, 200px);
-        grid-auto-rows: 200px;
+		grid-template-columns: repeat(1, 180px);
+        grid-auto-rows: 180px;
 	}
 	.card2-box {
 		padding: 0.2rem;
