@@ -33,7 +33,7 @@ body::-webkit-scrollbar-thumb {
 }
 
 .container__about {
-	padding: 20px 0px;
+	padding: 5px 0px;
 	background: var(--background-color);
 }
 .about {
@@ -46,8 +46,8 @@ body::-webkit-scrollbar-thumb {
 }
 
 .text__about {
-	width: 100%;
-	padding-right: 40px;
+	width: 50%;
+	padding-right: 10px;
 }
 
 .text__about h1 {
@@ -68,7 +68,7 @@ body::-webkit-scrollbar-thumb {
 
 .image__about img {
 	width: 280px;
-	border-radius: 10%;
+	border-radius: 5%;
 	margin: 10px;
 }
 
@@ -288,7 +288,7 @@ form > .button:hover,
 	}
 
 	.image__about img {
-		width: 115px;
+		width: 190px;
 	}
 	.section {
 		grid-template-columns: repeat(2, 1fr);

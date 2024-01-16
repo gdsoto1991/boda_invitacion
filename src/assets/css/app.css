@@ -126,8 +126,8 @@ picture,
 video,
 iframe,
 figure {
-	max-width: 100%;
-	width: 100%;
+	max-width: 300%;
+	width: 300%;
 	display: block;
 	-o-object-fit: cover;
 	object-fit: cover;
@@ -198,7 +198,7 @@ select,
 button,
 label {
 	font-family: inherit;
-	margin-top: 50px;
+	margin-top: 40px;
 	font-size: inherit;
 	-webkit-hyphens: auto;
 	-ms-hyphens: auto;
@@ -277,12 +277,10 @@ svg {
 	margin: 1em;
 	padding: 1em;
 	position: absolute;
-
 	color: var(--negro);
 	-webkit-transition: all 0.4s ease;
 	transition: all 0.4s ease;
 	border-radius: 0.5em;
-
 	opacity: 0;
 	-webkit-transform: translateY(50%);
 	transform: translateY(50%);
@@ -298,8 +296,9 @@ svg {
 
 @media screen and (max-width: 720px) {
 	.contenedor .li {
-		margin: 7px;
-		width: 90px;
-		font-size: 13.5px;
+		margin: 1px;
+		width: 70px;
+		font-size: 11px;
 	}
 }
+
