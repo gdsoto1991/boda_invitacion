@@ -36,8 +36,8 @@ nav > div {
 }
 .logo h1 {
 	font-family: Amsterdam;
-	font-size: 2.5rem !important;
-	font-weight: bold;
+	font-size: 2rem !important;
+	font-weight: normal;
 	color: #ffffff;
 }
 .video {
@@ -64,7 +64,7 @@ nav > div {
 }
 
 .detail p {
-	font-size: 55px;
+	font-size: 40px;
 }
 
 .detail a {

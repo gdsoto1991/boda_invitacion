@@ -141,9 +141,9 @@
 
 .section2 {
 	font-family: 'Space Mono', monospace;
-	height: 80vh;
+	height: 200vh;
 	padding: 10px;
-	background-color: #282926;
+	background-color: #393a36;
 	color: white;
 	display: flex;
 	align-items: center;
@@ -162,7 +162,7 @@
 .grid2 {
 	width: min-content;
 	display: grid;
-	grid-template-columns: repeat(3, 400px);
+	grid-template-columns: repeat(1, 400px);
 	grid-auto-rows: 400px;
 	gap: 1rem;
 }
@@ -266,16 +266,16 @@
 
 @media (max-width: 768px) {
 	.section2 .card3 {
-		margin-top: 30px;
+		margin-top: 20px;
 	}
 	.section2 {
-		height: 160vh;
+		height: 130vh;
 	}
 	.section {
 		height: 130vh;
 	}
 	.grid2 {
-		grid-template-columns: repeat(1, 260px);
+		grid-template-columns: repeat(1, 180px);
 	}
 	.card3-box {
 		padding: 0.3rem;
@@ -283,11 +283,11 @@
 }
 @media (max-width: 480px) {
 	.grid2 {
-		grid-template-columns: repeat(1, 250px);
-		grid-auto-rows: 280px;
+		grid-template-columns: repeat(1, 180px);
+		grid-auto-rows: 250px;
 	}
 	.card3-box {
-		padding: 0.2rem;
+		padding: 0.3rem;
 	}
 }
 
