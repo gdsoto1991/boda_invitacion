@@ -22,10 +22,10 @@ nav > div {
 	border-radius: 1rem;
 }
 .collapse:not(.show) .nav-link {
-	font-size: 1.1rem;
+	font-size: 1rem;
 	text-decoration: none;
 	color: #ffffff !important;
-	padding: 0 1.5rem !important;
+	padding: 1rem !important;
 }
 .menu:focus {
 	box-shadow: none;

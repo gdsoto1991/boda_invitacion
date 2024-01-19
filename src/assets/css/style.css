@@ -33,7 +33,7 @@ body::-webkit-scrollbar-thumb {
 }
 
 .container__about {
-	padding: 1px 0px;
+	padding: 50px 0px;
 	background: var(--background-color);
 }
 .about {
@@ -104,6 +104,7 @@ body::-webkit-scrollbar-thumb {
 	background-size: cover;
 	background-position: center center;
 	background-repeat: no-repeat;
+	min-height: 100vh;
 }
 .container5 {
 	display: grid;
@@ -133,6 +134,8 @@ body::-webkit-scrollbar-thumb {
 
 .data > p {
 	font-size: 1rem;
+	margin-bottom: 10px;
+
 }
 
 .data > p > i {

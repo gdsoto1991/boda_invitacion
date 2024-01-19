@@ -226,7 +226,7 @@ svg {
 
 .contenedor {
 	width: 90%;
-	max-width: 120em;
+	max-width: 80em;
 	padding: 1em;
 	color: var(--negro);
 	-webkit-transition: all 0.4s ease;
@@ -271,6 +271,7 @@ svg {
 .contenedor .subcontenedor {
 	min-height: 0vh;
 	position: relative;
+	height: 0vh;
 }
 
 .contenedor .bloque {
@@ -299,6 +300,24 @@ svg {
 		margin: 1px;
 		width: 70px;
 		font-size: 11px;
+	}
+
+	.contenedor {
+		width: 100%;
+		max-width: 90em;
+	}
+}
+
+@media screen and (max-width: 480px) {
+	.contenedor .li {
+		margin: 1px;
+		width: 70px;
+		font-size: 11px;
+	}
+
+	.contenedor {
+		width: 110%;
+		max-width: 100em;
 	}
 }
 

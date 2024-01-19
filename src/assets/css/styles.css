@@ -132,16 +132,34 @@
 
 .section {
 	font-family: 'Space Mono', monospace;
-	height: 80vh;
+	height: 70vh;
 	padding: 10px;
 	background-color: #282926;
 	color: white;
 	display: flex;
+	align-items: baseline;
+	align-content: center;
+	justify-content: center;
+	justify-items: center;
+
 }
 
 .section2 {
 	font-family: 'Space Mono', monospace;
-	height: 200vh;
+	height: 80vh;
+	padding: 10px;
+	background-color: #393a36;
+	color: white;
+	display: flex;
+	align-items: center;
+	align-content: center;
+	justify-content: center;
+	justify-items: center;
+}
+
+.section3 {
+	font-family: 'Space Mono', monospace;
+	height: 70vh;
 	padding: 10px;
 	background-color: #393a36;
 	color: white;
@@ -162,9 +180,12 @@
 .grid2 {
 	width: min-content;
 	display: grid;
-	grid-template-columns: repeat(1, 400px);
-	grid-auto-rows: 400px;
+	grid-template-columns: repeat(3, 450px);
+	grid-auto-rows: 360px;
 	gap: 1rem;
+	align-content: stretch;
+	justify-content: space-evenly;
+	justify-items: center;
 }
 
 .card3 {
@@ -274,6 +295,10 @@
 	.section {
 		height: 130vh;
 	}
+
+	.section3 {
+		height: 130vh;
+	}
 	.grid2 {
 		grid-template-columns: repeat(1, 180px);
 	}
@@ -295,16 +320,16 @@
 	width: min-content;
 	display: grid;
 	grid-template-columns: repeat(4, 280px);
-	grid-auto-rows: 300px;
+	grid-auto-rows: 350px;
 	gap: 1rem;
 }
 
 .card2 {
-	aspect-ratio: 1;
+	aspect-ratio: 0;
 	background-size: cover;
 	display: grid;
-	grid-template-columns: repeat(2, 1fr);
-	grid-template-rows: repeat(2, 1fr);
+	grid-template-columns: repeat(1, 1fr);
+	grid-template-rows: repeat(1, 1fr);
 	gap: 0.5rem;
 	padding: 0.5rem;
 	position: relative;
@@ -322,6 +347,26 @@
 	scale: 0.85;
 	filter: brightness(0.65);
 }
+
+.card-details {
+    /* */
+}
+
+.name-role {
+    text-align: center;
+}
+
+.name-role h3 {
+    margin-top: 300px; /* Ajusta este valor según sea necesario */
+}
+
+/* Estilos específicos para dispositivos móviles */
+@media screen and (max-width: 768px) {
+    .name-role h3 {
+        margin-top: 300px; /* Ajusta el valor para dispositivos móviles */
+    }
+}
+
 
 .card2-box {
 	padding: 0.8rem;
