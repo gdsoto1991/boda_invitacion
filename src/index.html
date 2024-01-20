@@ -57,7 +57,7 @@
 			
 			<a name="Hogar"></a>
 			<div class="video position-relative">
-				<video autoplay muted loop id="myVideo" style="width: 320; height: 240;">
+				<video id="myVideo">
 					<source src="video_Luis_Gene.webm" type="video/webm">
 					<source src="video_luis_gene_mov.mov" type="video/mov">
 					<source src="video_luis_gene_mobile.mp4" type="video/mp4">
@@ -558,6 +558,13 @@
 			btn.addEventListener('click', function () {
 				addRadius.classList.toggle('radius-50');
 			});
+		</script>
+
+		<script>
+			const video = document.querySelector('#myVideo')
+			video.volume = 0.0
+			video.loop = true
+			video.play()
 		</script>
 	</body>
 </html>
