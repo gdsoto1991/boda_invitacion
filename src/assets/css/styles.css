@@ -121,18 +121,34 @@
 	#cuenta {
 		flex-direction: column;
 	}
+
+	.portada .header {
+		margin-top: 500px;
+		margin-bottom: 100px;
+		text-transform: uppercase;
+		letter-spacing: 3px;
+	}
+
 }
 @media (max-width: 480px) {
 	#cuenta {
 		flex-direction: column;
 	}
+	
+	.portada .header {
+		margin-top: 500px;
+		margin-bottom: 100px;
+		text-transform: uppercase;
+		letter-spacing: 3px;
+	}
+
 }
 
 /* ? ---------------------------- */
 
 .section {
 	font-family: 'Space Mono', monospace;
-	height: 70vh;
+	height: 80vh;
 	padding: 10px;
 	background-color: #282926;
 	color: white;
@@ -159,7 +175,7 @@
 
 .section3 {
 	font-family: 'Space Mono', monospace;
-	height: 70vh;
+	height: 80vh;
 	padding: 10px;
 	background-color: #393a36;
 	color: white;
@@ -301,6 +317,7 @@
 	}
 	.grid2 {
 		grid-template-columns: repeat(1, 180px);
+		grid-auto-rows: 240px;
 	}
 	.card3-box {
 		padding: 0.3rem;
@@ -309,7 +326,7 @@
 @media (max-width: 480px) {
 	.grid2 {
 		grid-template-columns: repeat(1, 180px);
-		grid-auto-rows: 250px;
+		grid-auto-rows: 240px;
 	}
 	.card3-box {
 		padding: 0.3rem;
@@ -10125,7 +10142,7 @@ a.text-dark:focus {
 }
 
 .section-title {
-	margin-bottom: 30px;
+	margin-bottom: 0px;
 }
 
 .section-title::before {
