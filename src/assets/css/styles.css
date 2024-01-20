@@ -309,7 +309,7 @@
 		height: 130vh;
 	}
 	.section {
-		height: 130vh;
+		height: 150vh;
 	}
 
 	.section3 {
@@ -317,7 +317,7 @@
 	}
 	.grid2 {
 		grid-template-columns: repeat(1, 180px);
-		grid-auto-rows: 240px;
+		grid-auto-rows: 260px;
 	}
 	.card3-box {
 		padding: 0.3rem;
