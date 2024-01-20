@@ -9,7 +9,6 @@
 
 header {
 	width: 100%;
-	position: absolute;
 	z-index: 1;
 }
 nav > div {
@@ -24,7 +23,6 @@ nav > div {
 .collapse:not(.show) .nav-link {
 	font-size: 1rem;
 	text-decoration: none;
-	color: #ffffff !important;
 	padding: 1rem !important;
 }
 .menu:focus {
@@ -38,29 +36,10 @@ nav > div {
 	font-family: Amsterdam;
 	font-size: 2rem !important;
 	font-weight: normal;
-	color: #ffffff;
-}
-.video {
-	height: 100vh;
-}
-
-.video video {
-	position: absolute;
-	height: 100%;
-	width: 100%;
-	object-fit: cover;
-	filter: brightness(0.8);
 }
 
 .detail {
-	position: absolute;
-	bottom: 4rem;
 	text-align: center;
-}
-
-.detail,
-.detail a {
-	color: #ffffff;
 }
 
 .detail p {
