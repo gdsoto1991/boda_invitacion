@@ -148,11 +148,9 @@
 
 .section {
 	font-family: 'Space Mono', monospace;
-	height: 80vh;
 	padding: 10px;
 	background-color: #282926;
 	color: white;
-	display: flex;
 	align-items: baseline;
 	align-content: center;
 	justify-content: center;
@@ -175,7 +173,7 @@
 
 .section3 {
 	font-family: 'Space Mono', monospace;
-	height: 80vh;
+	min-height: 80vh;
 	padding: 10px;
 	background-color: #393a36;
 	color: white;
@@ -306,11 +304,10 @@
 		margin-top: 20px;
 	}
 	.section {
-		height: 150vh;
 	}
 
 	.section3 {
-		height: 130vh;
+		min-height: 130vh;
 	}
 	.grid2 {
 		grid-template-columns: repeat(1, 180px);
@@ -339,7 +336,6 @@
 }
 
 .card2 {
-	aspect-ratio: 0;
 	background-size: cover;
 	display: grid;
 	grid-template-columns: repeat(1, 1fr);
@@ -348,11 +344,9 @@
 	padding: 0.5rem;
 	position: relative;
 	cursor: pointer;
-	overflow: hidden;
 }
 
 .card-img2 {
-	position: absolute;
 	object-fit: cover;
 	transition: all 0.6s cubic-bezier(0.165, 0.84, 0.44, 1);
 }
@@ -368,16 +362,15 @@
 
 .name-role {
     text-align: center;
+	color: #adc178;
 }
 
 .name-role h3 {
-    margin-top: 300px; /* Ajusta este valor según sea necesario */
 }
 
 /* Estilos específicos para dispositivos móviles */
 @media screen and (max-width: 768px) {
     .name-role h3 {
-        margin-top: 300px; /* Ajusta el valor para dispositivos móviles */
     }
 }
 
