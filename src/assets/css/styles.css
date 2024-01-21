@@ -162,11 +162,11 @@
 
 .section2 {
 	font-family: 'Space Mono', monospace;
-	height: 80vh;
 	padding: 10px;
 	background-color: #393a36;
 	color: white;
 	display: flex;
+	flex-direction: column;
 	align-items: center;
 	align-content: center;
 	justify-content: center;
@@ -304,9 +304,6 @@
 @media (max-width: 768px) {
 	.section2 .card3 {
 		margin-top: 20px;
-	}
-	.section2 {
-		height: 130vh;
 	}
 	.section {
 		height: 150vh;
